@@ -3,7 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" author="Alfonso Marquez" content="width=device-width, initial-scale=1.0">
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css"/>
+    {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css"/> --}}
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/js/app.js" rel="stylesheet">
     
 
      <!-- Fonts -->
@@ -24,5 +26,6 @@
     </div>
 
     <script src=" {{ asset('/js/app.js')}} "></script>
+    
 </body>
 </html>
