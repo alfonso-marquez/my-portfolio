@@ -8,7 +8,7 @@
                 <p>Lives in <strong>Marikina City</strong></p>
             </div>
             <div class="about__experiences col-12 mb-3">
-                <h4>Experiences</h4>
+                <h4>Experience</h4>
                 <p>Software Engineer at <strong>Blotocol Philippines, Inc.</strong></p>
                 <p>Self-employed as <strong>Freelance Programmer</strong></p>
                 <p>Software Associate at <strong>AOMOS</strong></p>

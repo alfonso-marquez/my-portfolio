@@ -6,8 +6,9 @@
         <div class="col-5 profile__details">
             <div>
                 <h2>Jose Alfonso Marquez</h2>
-                <p>Bachelor of Science in Computer Engineering<br>Software Engineer<br> 
-                    <span style="font-style:italic"> Proactive | Teamplayer | Always Curious </span>
+                <h4>Software Engineer</h4>
+                <p>Bachelor of Science in Computer Engineering<br> 
+                    <span style="font-style:italic"> Proactive | Teamplayer | Inquisitive </span>
                     {{-- <span style="font-style:italic">Control what you can. Confront what you can't.</span> --}}
                 </p>
             </div>    
