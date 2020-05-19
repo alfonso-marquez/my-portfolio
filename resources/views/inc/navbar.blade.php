@@ -16,7 +16,7 @@
                 title="LinkedIn Profile of Alfonso Marquez" target="_blank">
                 <img src="/image/linkedin-1.png">
             </a>
-            <a href="https://github.com/ajmarquezz" title="Github Profile of Alfonso Marquez" target="_blank">
+            <a href="https://github.com/alfonso-marquez" title="Github Profile of Alfonso Marquez" target="_blank">
                 <img  src="/image/GitHub.png">
             </a>
        </div>

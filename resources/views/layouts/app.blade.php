@@ -6,7 +6,7 @@
     {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css"/> --}}
     <link href="/css/app.css" rel="stylesheet">
     {{-- <script src=" {{ asset('/js/app.js')}} "></script> --}}
-    <script src="/js/app.js"></script>
+    
 
      <!-- Fonts -->
      <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -24,8 +24,7 @@
     <div id="app">      
         @yield('content')
     </div>
-
     
-    
+    <script src="/js/app.js"></script>
 </body>
 </html>
