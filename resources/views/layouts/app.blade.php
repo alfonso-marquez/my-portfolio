@@ -5,8 +5,8 @@
     initial-scale=1, shrink-to-fit=no">
 
     <meta property="og:title" content="Alfonso Marquez">
-    <meta property="og:description" content="Online Portfolio">
-    <meta property="og:image" content="/image.alfonso-1.jpg">
+    <meta property="og:description" content="Portfolio">
+    <meta property="og:image" content="/image/alfonso-1.jpg">
 
 
     {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css"/> --}}
