@@ -11,10 +11,8 @@
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
 body {
-  overflow: hidden;
-  overflow-y: scroll;
-  // background-color: #F0F2F5;
-  background-color:red;
+  background-color: #F0F2F5;
+  // background-color:red;
 
 }
 
@@ -251,13 +249,18 @@ body {
   // margin-top: 20px;
 }
 .nav-pills {
+
   .nav-link {
       font-size: 16px !important;
       text-decoration: none !important;
       color: #8E8E8E !important;
       border: none !important;
       border-radius: 0 !important;
+      // width: 100px;
       margin-right: 24px;
+        &:last-child {
+        margin-right: 0px;
+        }
   }
   .nav-item-active {
     font-weight: bolder !important;

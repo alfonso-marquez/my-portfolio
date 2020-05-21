@@ -10,7 +10,7 @@
         content-class="" align="center">
             <b-tab active>
                 <template slot="title">
-                    <b-icon-person class="mr-1"></b-icon-person> About
+                    <b-icon-person class=""></b-icon-person> About
                 </template>
                 <div class="row">
                     <div class="col-lg-12">
@@ -20,13 +20,13 @@
             </b-tab>
             <b-tab title="Projects">
                 <template slot="title">
-                    <b-icon-briefcase class="mr-1"></b-icon-briefcase> Projects
+                    <b-icon-briefcase class=""></b-icon-briefcase> Projects
                 </template>
                 @include('inc.projects')
             </b-tab>
             <b-tab title="Interests">
                 <template slot="title">
-                    <b-icon-lightning class="mr-1"></b-icon-lightning> Interests
+                    <b-icon-lightning class=""></b-icon-lightning> Interests
                 </template>
                 @include('inc.interests')
             </b-tab>

@@ -25165,9 +25165,7 @@ input[type=color].form-control:disabled {
 }
 
 body {
-  overflow: hidden;
-  overflow-y: scroll;
-  background-color: red;
+  background-color: #F0F2F5;
 }
 
 .mainnav {
@@ -25380,6 +25378,10 @@ body {
   border: none !important;
   border-radius: 0 !important;
   margin-right: 24px;
+}
+
+.nav-pills .nav-link:last-child {
+  margin-right: 0px;
 }
 
 .nav-pills .nav-item-active {
