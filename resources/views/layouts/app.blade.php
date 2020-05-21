@@ -7,6 +7,9 @@
     <meta property="og:title" content="Alfonso Marquez">
     <meta property="og:description" content="Portfolio">
     <meta property="og:image" content="/image/alfonso-1.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://portfolio-alfonso.herokuapp.com/">
+
 
 
     {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css"/> --}}
