@@ -16,12 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('main');
 });
-Route::get('/timeline', function () {
-    return view('home');
-});
 Route::get('/about', function () {
-    return view('about');
+    return view('inc.about');
 });
 Route::get('/projects', function () {
-    return view('projects');
+    return view('inc.projects');
+});
+Route::get('/interests', function () {
+    return view('inc.interests');
 });

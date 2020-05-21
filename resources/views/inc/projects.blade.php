@@ -1,3 +1,4 @@
+
 <div class="container">
     <div class="row mt-3 projects">
         @for ($i = 1; $i < 10; $i++)

@@ -1,7 +1,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" author="Alfonso Marquez" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" author="Alfonso Marquez" content="width=device-width,
+    initial-scale=1, shrink-to-fit=no">
+
+    <meta property="og:title" content="Alfonso Marquez">
+    <meta property="og:description" content="Online Portfolio">
+    <meta property="og:image" content="/image.alfonso-1.jpg">
+
 
     {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css"/> --}}
     <link href="/css/app.css" rel="stylesheet">
@@ -20,11 +26,12 @@
 </head>
 <body>
 
-    @include('inc.navbar')
-    @include('inc.header')
 
-    <div id="app">      
-        @yield('content')
+    <div id="app">  
+        @include('inc.navbar')
+        @include('inc.header')    
+        @yield('main')
+        @include('inc.footer')    
     </div>
 
     <script src="/js/app.js"></script>

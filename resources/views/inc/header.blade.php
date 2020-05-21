@@ -1,9 +1,10 @@
-<div class="container-fluid profile">
-    <div class="row">
-        <div class="col-2 offset-3 profile__image">
+<div class="profile">
+<div class="container-fluid">
+    <div class="header row">
+        <div class="col-12 col-sm-4 col-lg-3 offset-lg-1 col-xl-3 offset-xl-1 profile__image">
             <img class="rounded-circle" src="/image/alfonso-1.jpg">
         </div>
-        <div class="col-5 profile__details">
+        <div class="col-10 offset-1 col-sm-9 offset-sm-2 col-md-8 offset-md-2 col-lg-6 offset-lg-0 col-xl-5 offset-xl-0 profile__details align-text-center">
             <div>
                 <h2>Jose Alfonso Marquez</h2>
                 <h4>Software Engineer</h4>
@@ -14,29 +15,9 @@
             </div>    
         </div>
     </div>
-    <div class="line-div row">
-        <div class="col-12">
-            {{-- <hr class="mt-2 w-100"> --}}
-        </div>
-    </div>
-    <div class=" tabnav row">
-        <div class="col-4 offset-4">
-            <ul class="nav nav-fill">
-                {{-- <li class="nav-item">
-                    <a data-toggle="tab" class="nav-link active" href="#timeline">TIMELINE</a>
-                </li> --}}
-                <li class="nav-item">
-                    <a data-toggle="tab" class="nav-link active" href="#about">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a data-toggle="tab" class="nav-link" href="#projects">PROJECTS</a>
-                </li>
-                <li class="nav-item">
-                    <a data-toggle="tab" class="nav-link" href="#interests">INTERESTS</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+
+    {{-- <tabs-component></tabs-component> --}}
+
     {{-- <div class="row ">
         <div class="col-10 offset-1">
             <div class="d-flex justify-content-center stories">
@@ -55,4 +36,5 @@
             </div>
         </div>       
     </div> --}}
+</div>
 </div>

@@ -1,20 +1,38 @@
 @extends('layouts.app')
 
-@section('content')
-    <div class="main container">
-        <div class="tab-content">
-            {{-- <div id="timeline" class="tab-pane fade show active">
-                @include('inc.timeline')
-            </div> --}}
-            <div id="about" class="tab-pane fade show active">
-                @include('inc.about')
-            </div>
-            <div id="projects" class="tab-pane fade">
+@section('main')
+<div class="container-fluid">
+<div class="row" >
+    <div class="tab-div" >
+        <b-tabs no-body pills card
+        active-nav-item-class="nav-item-active"
+        active-tab-class="tab-active"
+        content-class="" align="center">
+            <b-tab active>
+                <template slot="title">
+                    <b-icon-person class="mr-1"></b-icon-person> About
+                </template>
+                <div class="row">
+                    <div class="col-lg-12">
+                        @include('inc.about')
+                    </div>
+                </div>
+            </b-tab>
+            <b-tab title="Projects">
+                <template slot="title">
+                    <b-icon-briefcase class="mr-1"></b-icon-briefcase> Projects
+                </template>
                 @include('inc.projects')
-            </div>
-            <div id="interests" class="tab-pane fade">
+            </b-tab>
+            <b-tab title="Interests">
+                <template slot="title">
+                    <b-icon-lightning class="mr-1"></b-icon-lightning> Interests
+                </template>
                 @include('inc.interests')
-            </div>
-        </div>
+            </b-tab>
+      </b-tabs>
     </div>
+</div>
+</div>
 @endsection
+
