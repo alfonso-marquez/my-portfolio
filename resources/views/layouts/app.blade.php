@@ -27,7 +27,7 @@
 <body>
 
 
-    <div id="app">  
+    <div id="app" style="position: relative">  
         @include('inc.navbar')
         @include('inc.header')    
         @yield('main')

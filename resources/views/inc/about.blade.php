@@ -19,8 +19,10 @@
                 <p>Mobile Number: <strong>09052205985</strong></p>
             </div>
         </div>
-        <div class="about__skills col-12 col-lg-6">
+        <div class="col-12 col-lg-6">
+            <div class="about__skills col-12 mb-3">
             <h4><strong>Skills</strong></h4>
-            <canvas id="bar-chart" width="800" height="650"></canvas>
+            <canvas id="bar-chart" width="700"></canvas>
+            </div>
         </div>
     </div>

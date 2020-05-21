@@ -25165,7 +25165,8 @@ input[type=color].form-control:disabled {
 }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
+  overflow-y: scroll;
   background-color: #F0F2F5;
 }
 
