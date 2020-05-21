@@ -22,7 +22,7 @@
         <div class="col-12 col-lg-6">
             <div class="about__skills col-12 mb-3">
             <h4><strong>Skills</strong></h4>
-            <canvas id="bar-chart" width="700" height="500"></canvas>
+            <canvas id="bar-chart" width="700" height="600"></canvas>
             </div>
         </div>
     </div>
