@@ -13,7 +13,9 @@
 body {
   overflow: hidden;
   overflow-y: scroll;
-  background-color: #F0F2F5;
+  // background-color: #F0F2F5;
+  background-color:red;
+
 }
 
 .mainnav {
@@ -277,4 +279,10 @@ body {
   .year {
     color: #3282b8;
   }
+}
+
+ul {
+  margin-block-start: 0px !important;
+  margin-block-end: 0px !important;
+  padding-inline-start: 0px !important;
 }

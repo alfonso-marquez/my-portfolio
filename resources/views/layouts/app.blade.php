@@ -27,7 +27,7 @@
 <body>
 
 
-    <div id="app" style="position: relative">  
+    <div id="app" style=" overflow: hidden;">  
         @include('inc.navbar')
         @include('inc.header')    
         @yield('main')
