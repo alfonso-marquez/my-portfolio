@@ -218,8 +218,10 @@ box-shadow:  -9px -9px 18px #101213,
     // box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
     border-radius: 39px;
 background: linear-gradient(315deg, #1c2021, #212528);
-box-shadow:  -9px -9px 18px #101213, 
-             9px 9px 18px #2f3538;
+// box-shadow:  -9px -9px 18px #101213, 
+//              9px 9px 18px #2f3538;
+box-shadow:  19px 19px 38px #0f1011, 
+             -19px -19px 38px #2f3639;
     transition: box-shadow 0.2s;
     padding: 24px;
     color: white;
@@ -230,8 +232,8 @@ box-shadow:  -9px -9px 18px #101213,
     // box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
     border-radius: 39px;
     background: linear-gradient(315deg, #1c2021, #212528);
-    box-shadow:  -9px -9px 18px #101213, 
-                 9px 9px 18px #2f3538;
+    box-shadow:  19px 19px 38px #0f1011, 
+             -19px -19px 38px #2f3639;
         transition: box-shadow 0.2s;
         color: white;
     padding: 24px;
@@ -243,8 +245,8 @@ box-shadow:  -9px -9px 18px #101213,
     // box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
     border-radius: 39px;
     background: linear-gradient(315deg, #1c2021, #212528);
-    box-shadow:  -9px -9px 18px #101213, 
-                 9px 9px 18px #2f3538;
+    box-shadow:  19px 19px 38px #0f1011, 
+    -19px -19px 38px #2f3639;
         transition: box-shadow 0.2s;
         padding: 24px;
         color: white;
@@ -258,8 +260,8 @@ box-shadow:  -9px -9px 18px #101213,
     background: #00c6ff;  /* fallback for old browsers */
     border-radius: 39px;
     background: linear-gradient(315deg, #1c2021, #212528);
-    box-shadow:  -9px -9px 18px #101213, 
-                 9px 9px 18px #2f3538;
+    box-shadow:  19px 19px 38px #0f1011, 
+    -19px -19px 38px #2f3639;
         transition: box-shadow 0.2s;
         padding: 24px;
         color: white;
@@ -270,8 +272,8 @@ box-shadow:  -9px -9px 18px #101213,
 .projects {
   border-radius: 39px;
   background: linear-gradient(315deg, #1c2021, #212528);
-  box-shadow:  -9px -9px 18px #101213, 
-               9px 9px 18px #2f3538;
+  box-shadow:  19px 19px 38px #0f1011, 
+             -19px -19px 38px #2f3639;
       transition: box-shadow 0.2s;
       padding: 24px;
       color: white;
@@ -280,8 +282,8 @@ box-shadow:  -9px -9px 18px #101213,
 .interests {
   border-radius: 39px;
 background: linear-gradient(315deg, #1c2021, #212528);
-box-shadow:  -9px -9px 18px #101213, 
-             9px 9px 18px #2f3538;
+box-shadow:  19px 19px 38px #0f1011, 
+             -19px -19px 38px #2f3639;
     transition: box-shadow 0.2s;
     padding: 24px;
     color: white;
@@ -291,7 +293,7 @@ box-shadow:  -9px -9px 18px #101213,
   
   background-color: #1F2325;
   padding:0 !important;
-  box-shadow: 0 0.125rem 0.25rem -0.25rem rgba(0, 0, 0, 0.075);
+  // box-shadow: 0 0.125rem 0.25rem -0.25rem rgba(0, 0, 0, 0.075);
   width: 100vw;
   border-radius: 0px !important;
 
@@ -300,7 +302,7 @@ box-shadow:  -9px -9px 18px #101213,
 .nav-pills {
 
   .nav-link {
-      font-size: 16px !important;
+      font-size: 20px !important;
       text-decoration: none !important;
       color: white !important;
       border: none !important;
