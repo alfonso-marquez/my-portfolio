@@ -91752,7 +91752,7 @@ var tabs = document.querySelectorAll('.nav-item'); // const handleImage = () => 
 //   });
 // });
 
-Chart.defaults.global.defaultFontColor = 'black';
+Chart.defaults.global.defaultFontColor = 'white';
 Chart.defaults.global.defaultFontFamily = 'Open Sans';
 new Chart(document.getElementById("bar-chart"), {
   type: 'horizontalBar',
@@ -91761,7 +91761,7 @@ new Chart(document.getElementById("bar-chart"), {
     fontSize: 14,
     datasets: [{
       label: "Skill",
-      backgroundColor: ["#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75'],
+      backgroundColor: ["rgba(34, 167, 240, 1)", 'rgba(107, 185, 240, 1)', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75'],
       data: [90, 70, 65, 60, 70, 50, 70, 80, 70, 75, 85, 75],
       barPercentage: 0.7,
       categoryPercentage: 0.7 //   barThickness: 15,

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('main')
-<div class="container-fluid">
+<div class="container-fluid ">
 <div class="row" >
     <div class="tab-div" >
         <b-tabs no-body pills card
@@ -18,13 +18,13 @@
                     </div>
                 </div>
             </b-tab>
-            <b-tab title="Projects">
+            <b-tab title="Projects" lazy>
                 <template slot="title">
                     <b-icon-briefcase class=""></b-icon-briefcase> Projects
                 </template>
                 @include('inc.projects')
             </b-tab>
-            <b-tab title="Interests">
+            <b-tab title="Interests" lazy>
                 <template slot="title">
                     <b-icon-lightning class=""></b-icon-lightning> Interests
                 </template>

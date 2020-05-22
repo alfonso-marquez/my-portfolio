@@ -1,10 +1,15 @@
 <div class="profile">
-<div class="container-fluid">
-    <div class="header row">
-        <div class="col-12 col-sm-4 col-lg-3 offset-lg-1 col-xl-3 offset-xl-1 profile__image">
-            <img class="rounded-circle" src="/image/alfonso-1.jpg">
+    {{-- <div class="hero-image">
+        <div class="hero-text">
+
         </div>
-        <div class="col-10 offset-1 col-sm-9 offset-sm-2 col-md-8 offset-md-2 col-lg-6 offset-lg-0 col-xl-5 offset-xl-0 profile__details align-text-center">
+    </div> --}}
+<div class="container-fluid">
+    <div class="header row ">
+        <div class="col-12 col-sm-4 col-lg-3 offset-lg-1 col-xl-3 offset-xl-1 profile__image mt-3">
+            <img src="/image/alfonso-1.jpg">
+        </div>
+        <div class="col-10 offset-1 col-sm-9 offset-sm-2 col-md-8 offset-md-2 col-lg-6 offset-lg-0 col-xl-5 offset-xl-0 profile__details align-text-center mt-5">
             <div>
                 <h2>Jose Alfonso Marquez</h2>
                 <h4>Software Engineer</h4>

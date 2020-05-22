@@ -1,7 +1,8 @@
-<nav class="mainnav navbar navbar-expand-md navbar-light fixed-top bg-white shadow-sm">
+<div>
+{{-- <nav class="mainnav navbar navbar-expand-md navbar-light fixed-top">
     <div class="container">
         <a class="navbar-brand d-flex" href="/"> 
-            <div class="mainnav__title">Portfolio | Alfonso</div>
+            <div class="mainnav__title">PORTFOLIO | ALFONSO</div>
        </a> 
        <div class="mainnav__accounts">
             <a href="https://www.facebook.com/marquez.josealfonso/" 
@@ -21,4 +22,5 @@
             </a>
        </div>
     </div>
-</nav>
+</nav> --}}
+</div>

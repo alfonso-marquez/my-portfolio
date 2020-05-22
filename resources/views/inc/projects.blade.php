@@ -1,5 +1,5 @@
 
-<div class="container">
+{{-- <div class="container">
     <div class="row mt-3 projects">
         @for ($i = 1; $i < 10; $i++)
             <div class="col-4 pb-4">
@@ -9,4 +9,4 @@
             </div> 
         @endfor
     </div>
-</div>
+</div> --}}
