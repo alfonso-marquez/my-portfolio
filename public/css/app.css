@@ -25237,24 +25237,34 @@ body {
 
 .profile__details {
   align-self: center;
+  text-align: center;
   margin-bottom: 24px;
+}
+
+@media (min-width: 576px) {
+  .profile__details {
+    text-align: justify;
+  }
 }
 
 @media (min-width: 768px) {
   .profile__details {
     margin-top: 36px;
+    text-align: justify;
   }
 }
 
 @media (min-width: 992px) {
   .profile__details {
     margin-top: 48px;
+    text-align: justify;
   }
 }
 
 @media (min-width: 1280px) {
   .profile__details {
     margin-top: 48;
+    text-align: justify;
   }
 }
 
