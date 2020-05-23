@@ -15,7 +15,7 @@
             </div>
             <div class="about__contact col-12 mb-4">
                 <h4>Contact</h4>
-                <p>Email: <strong>marquez.josealfonso@gmail.com</strong></p>
+                <p class="email">Email: <strong>marquez.josealfonso@gmail.com</strong></p>
                 <p>Mobile Number: <strong>09052205985</strong></p>
             </div>
         </div>
