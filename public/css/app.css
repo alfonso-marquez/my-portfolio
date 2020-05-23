@@ -25343,7 +25343,7 @@ body {
 .about__overview {
   border-radius: 16px;
   border-radius: 39px;
-  background: linear-gradient(315deg, #1f2424, #212528);
+  background-color: #1F2325;
   box-shadow: 6px 6px 5px #1a1d1f, -6px -6px 5px #24292b;
   transition: box-shadow 0.2s;
   padding: 24px;
@@ -25353,7 +25353,7 @@ body {
 .about__experiences {
   border-radius: 16px;
   border-radius: 39px;
-  background: linear-gradient(315deg, #1f2424, #212528);
+  background-color: #1F2325;
   box-shadow: 6px 6px 5px #1a1d1f, -6px -6px 5px #24292b;
   transition: box-shadow 0.2s;
   color: white;
@@ -25363,8 +25363,8 @@ body {
 .about__skills {
   border-radius: 16px;
   padding: 24px;
+  background-color: #1F2325;
   border-radius: 39px;
-  background: linear-gradient(315deg, #1f2424, #212528);
   box-shadow: 6px 6px 5px #1a1d1f, -6px -6px 5px #24292b;
   transition: box-shadow 0.2s;
   padding: 24px;
@@ -25377,7 +25377,7 @@ body {
   background: #00c6ff;
   /* fallback for old browsers */
   border-radius: 39px;
-  background: linear-gradient(315deg, #1f2424, #212528);
+  background-color: #1F2325;
   box-shadow: 6px 6px 5px #1a1d1f, -6px -6px 5px #24292b;
   transition: box-shadow 0.2s;
   padding: 24px;
@@ -25386,8 +25386,8 @@ body {
 
 .projects {
   border-radius: 39px;
-  background: linear-gradient(315deg, #1f2424, #212528);
-  box-shadow: 19px 19px 38px #0f1011, -19px -19px 38px #2f3639;
+  background-color: #1F2325;
+  box-shadow: 6px 6px 5px #1a1d1f, -6px -6px 5px #24292b;
   transition: box-shadow 0.2s;
   padding: 24px;
   color: white;
@@ -25395,10 +25395,10 @@ body {
 
 .interests {
   border-radius: 39px;
-  background: linear-gradient(315deg, #1f2424, #212528);
-  box-shadow: 19px 19px 38px #0f1011, -19px -19px 38px #2f3639;
+  background-color: #1F2325;
+  box-shadow: 6px 6px 5px #1a1d1f, -6px -6px 5px #24292b;
   transition: box-shadow 0.2s;
-  padding: 24px;
+  padding: 16px;
   color: white;
 }
 

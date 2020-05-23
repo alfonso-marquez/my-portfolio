@@ -225,7 +225,7 @@ box-shadow:  -9px -9px 18px #101213,
     // background-color: white;
     // box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
     border-radius: 39px;
-background: linear-gradient(315deg, #1f2424, #212528);
+    background-color: #1F2325;
 // box-shadow:  -9px -9px 18px #101213, 
 //              9px 9px 18px #2f3538;
 box-shadow:  6px 6px 5px #1a1d1f, 
@@ -239,7 +239,7 @@ box-shadow:  6px 6px 5px #1a1d1f,
     // background-color: white;
     // box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
     border-radius: 39px;
-    background: linear-gradient(315deg, #1f2424, #212528);
+    background-color: #1F2325;
     box-shadow:  6px 6px 5px #1a1d1f, 
     -6px -6px 5px #24292b;
         transition: box-shadow 0.2s;
@@ -251,8 +251,9 @@ box-shadow:  6px 6px 5px #1a1d1f,
     padding: 24px;
     // background-color: white;
     // box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    background-color: #1F2325;
     border-radius: 39px;
-    background: linear-gradient(315deg, #1f2424, #212528);
+    // background: linear-gradient(315deg, #1f2424, #212528);
     // box-shadow:  -9px -9px 18px #101213, 
     //              9px 9px 18px #2f3538;
     box-shadow:  6px 6px 5px #1a1d1f, 
@@ -269,7 +270,7 @@ box-shadow:  6px 6px 5px #1a1d1f,
     padding: 24px;
     background: #00c6ff;  /* fallback for old browsers */
     border-radius: 39px;
-    background: linear-gradient(315deg, #1f2424, #212528);
+    background-color: #1F2325;
     box-shadow:  6px 6px 5px #1a1d1f, 
     -6px -6px 5px #24292b;
         transition: box-shadow 0.2s;
@@ -281,21 +282,22 @@ box-shadow:  6px 6px 5px #1a1d1f,
 
 .projects {
   border-radius: 39px;
-  background: linear-gradient(315deg, #1f2424, #212528);
-  box-shadow:  19px 19px 38px #0f1011, 
-             -19px -19px 38px #2f3639;
-      transition: box-shadow 0.2s;
+  // background: linear-gradient(315deg, #1f2424, #212528);
+  background-color: #1F2325;
+    box-shadow:  6px 6px 5px #1a1d1f, 
+    -6px -6px 5px #24292b;
+        transition: box-shadow 0.2s;
       padding: 24px;
       color: white;
 }
 
 .interests {
   border-radius: 39px;
-background: linear-gradient(315deg, #1f2424, #212528);
-box-shadow:  19px 19px 38px #0f1011, 
-             -19px -19px 38px #2f3639;
-    transition: box-shadow 0.2s;
-    padding: 24px;
+  background-color: #1F2325;
+    box-shadow:  6px 6px 5px #1a1d1f, 
+    -6px -6px 5px #24292b;
+        transition: box-shadow 0.2s;
+    padding: 16px;
     color: white;
 }
 
@@ -303,9 +305,11 @@ box-shadow:  19px 19px 38px #0f1011,
   
   background-color: #1F2325;
   padding:0 !important;
-  // box-shadow: 0 0.125rem 0.25rem -0.25rem rgba(0, 0, 0, 0.075);
+  // box-shadow: 0 1px 0.25rem -0.25rem rgba(0, 0, 0, 0.075);
   width: 100vw;
   border-radius: 0px !important;
+  // border-bottom: 1px solid #2f3639 !important;
+
 
   // margin-top: 20px;
 }

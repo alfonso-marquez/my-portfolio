@@ -1954,9 +1954,39 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
+  data: function data() {
+    return {
+      slide: 0,
+      sliding: null
+    };
+  },
+  methods: {
+    onSlideStart: function onSlideStart(slide) {
+      this.sliding = true;
+    },
+    onSlideEnd: function onSlideEnd(slide) {
+      this.sliding = false;
+    }
   }
 });
 
@@ -79382,94 +79412,113 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticStyle: { "background-color": "none" } },
     [
-      _c("b-tab", { attrs: { "no-body": "", title: "About", active: "" } }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row about mt-3" }, [
-            _c("div", { staticClass: "col-5" }, [
-              _c("div", { staticClass: "about__overview col-12 mb-3" }, [
-                _c("h4", [_c("strong", [_vm._v("Info")])]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("Studied at "),
-                  _c("strong", [
-                    _vm._v("Polytechnic University of the Philippines")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("Went to "),
-                  _c("strong", [_vm._v("Marikina Science High School")])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("Lives in "),
-                  _c("strong", [_vm._v("Marikina City")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "about__experiences col-12 mb-3" }, [
-                _c("h4", [_vm._v("Experience")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("Software Engineer at "),
-                  _c("strong", [_vm._v("Blotocol Philippines, Inc.")])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("Self-employed as "),
-                  _c("strong", [_vm._v("Freelance Programmer")])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("Software Associate at "),
-                  _c("strong", [_vm._v("AOMOS")])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("Hardware Intern at "),
-                  _c("strong", [_vm._v("RJPB Computer Trading")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "about__contact col-12 mb-3" }, [
-                _c("h4", [_vm._v("Contact")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("Email: "),
-                  _c("strong", [_vm._v("marquez.josealfonso@gmail.com")])
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v("Mobile Number: "),
-                  _c("strong", [_vm._v("09052205985")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "copyright ml-4 pb-3" }, [
-                _vm._v("\n                        ALFONSO MARQUEZ © "),
-                _c("span", { staticClass: "year" }, [_vm._v("2020")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "about__skills col-7" }, [
-              _c("h4", [_c("strong", [_vm._v("Skills")])]),
-              _vm._v(" "),
-              _c("canvas", {
-                attrs: { id: "bar-chart", width: "800", height: "650" }
-              })
+      _c(
+        "b-carousel",
+        {
+          staticStyle: { "text-shadow": "1px 1px 2px #333" },
+          attrs: {
+            id: "carousel-1",
+            interval: 4000,
+            controls: "",
+            indicators: "",
+            "img-width": "1024",
+            "img-height": "480"
+          },
+          on: {
+            "sliding-start": _vm.onSlideStart,
+            "sliding-end": _vm.onSlideEnd
+          },
+          model: {
+            value: _vm.slide,
+            callback: function($$v) {
+              _vm.slide = $$v
+            },
+            expression: "slide"
+          }
+        },
+        [
+          _c("b-carousel-slide", {
+            scopedSlots: _vm._u([
+              {
+                key: "img",
+                fn: function() {
+                  return [
+                    _c("img", {
+                      staticClass: "d-block img-fluid w-100",
+                      attrs: {
+                        width: "1024",
+                        height: "480",
+                        src: "image/header-alfonso.jpg",
+                        alt: "image slot"
+                      }
+                    })
+                  ]
+                },
+                proxy: true
+              }
             ])
-          ])
-        ])
-      ]),
+          }),
+          _vm._v(" "),
+          _c(
+            "b-carousel-slide",
+            {
+              attrs: { "img-src": "https://picsum.photos/1024/480/?image=54" }
+            },
+            [_c("h1", [_vm._v("Hello world!")])]
+          ),
+          _vm._v(" "),
+          _c("b-carousel-slide", {
+            attrs: { "img-src": "https://picsum.photos/1024/480/?image=58" }
+          }),
+          _vm._v(" "),
+          _c("b-carousel-slide", {
+            scopedSlots: _vm._u([
+              {
+                key: "img",
+                fn: function() {
+                  return [
+                    _c("img", {
+                      staticClass: "d-block img-fluid w-100",
+                      attrs: {
+                        width: "1024",
+                        height: "480",
+                        src: "image/header-alfonso.jpg",
+                        alt: "image slot"
+                      }
+                    })
+                  ]
+                },
+                proxy: true
+              }
+            ])
+          }),
+          _vm._v(" "),
+          _c(
+            "b-carousel-slide",
+            {
+              attrs: {
+                caption: "Blank Image",
+                "img-blank": "",
+                "img-alt": "Blank image"
+              }
+            },
+            [
+              _c("p", [
+                _vm._v(
+                  "\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt\n        a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.\n      "
+                )
+              ])
+            ]
+          )
+        ],
+        1
+      ),
       _vm._v(" "),
-      _c("b-tab", { attrs: { title: "Projects" } }, [
-        _c("p", [_vm._v("I'm the second tab")])
-      ]),
-      _vm._v(" "),
-      _c("b-tab", { attrs: { title: "Interests", disabled: "" } }, [
-        _c("p", [_vm._v("I'm a disabled tab!")])
+      _c("p", { staticClass: "mt-4" }, [
+        _vm._v("\n    Slide #: " + _vm._s(_vm.slide)),
+        _c("br"),
+        _vm._v("\n    Sliding: " + _vm._s(_vm.sliding) + "\n  ")
       ])
     ],
     1
@@ -91761,7 +91810,7 @@ new Chart(document.getElementById("bar-chart"), {
     fontSize: 14,
     datasets: [{
       label: "Skill",
-      backgroundColor: ["rgba(34, 167, 240, 1)", 'rgba(107, 185, 240, 1)', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75', "#3282b8", '#0f4c75'],
+      backgroundColor: ["rgba(34, 167, 240, 1)", "rgba(107, 185, 240, 1)", "#3282b8", "#0f4c75", "rgba(34, 167, 240, 1)", "rgba(107, 185, 240, 1)", "#3282b8", "#0f4c75", "rgba(34, 167, 240, 1)", "rgba(107, 185, 240, 1)", "#3282b8", "#0f4c75"],
       data: [90, 70, 65, 60, 70, 50, 70, 80, 70, 75, 85, 75],
       barPercentage: 0.7,
       categoryPercentage: 0.7 //   barThickness: 15,

@@ -121,8 +121,9 @@ new Chart(document.getElementById("bar-chart"), {
       datasets: [
         {
           label: "Skill",
-          backgroundColor: ["rgba(34, 167, 240, 1)",'rgba(107, 185, 240, 1)',"#3282b8",'#0f4c75',"#3282b8",'#0f4c75',"#3282b8",
-                          '#0f4c75',"#3282b8",'#0f4c75',"#3282b8",'#0f4c75',"#3282b8",'#0f4c75',],
+          backgroundColor: ["rgba(34, 167, 240, 1)","rgba(107, 185, 240, 1)",
+          "#3282b8","#0f4c75","rgba(34, 167, 240, 1)","rgba(107, 185, 240, 1)",
+          "#3282b8","#0f4c75","rgba(34, 167, 240, 1)","rgba(107, 185, 240, 1)","#3282b8","#0f4c75",],
           data: [90,70,65,60,70,50,70,80,70,75,85,75],
           barPercentage: 0.7,
           categoryPercentage: 0.7,

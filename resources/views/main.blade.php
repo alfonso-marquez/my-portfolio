@@ -7,7 +7,7 @@
         <b-tabs no-body pills card
         active-nav-item-class="nav-item-active"
         active-tab-class="tab-active"
-        content-class="" align="center">
+        content-class=""align="center">
             <b-tab active>
                 <template slot="title">
                     <b-icon-person class=""></b-icon-person> About
@@ -18,13 +18,13 @@
                     </div>
                 </div>
             </b-tab>
-            <b-tab title="Projects" lazy>
+            <b-tab title="Projects">
                 <template slot="title">
                     <b-icon-briefcase class=""></b-icon-briefcase> Projects
                 </template>
                 @include('inc.projects')
             </b-tab>
-            <b-tab title="Interests" lazy>
+            <b-tab title="Interests">
                 <template slot="title">
                     <b-icon-lightning class=""></b-icon-lightning> Interests
                 </template>
