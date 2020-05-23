@@ -30,7 +30,7 @@
 <body>
 
     <div id="app" style="overflow: hidden;">  
-        @include('inc.navbar')
+        {{-- @include('inc.navbar') --}}
         @include('inc.header')    
         @yield('main')
         @include('inc.footer')    

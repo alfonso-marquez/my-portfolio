@@ -139,6 +139,32 @@ box-shadow:  -9px -9px 18px #101213,
     font-family: 'Open Sans', sans-serif;
     margin-top: 24px;
   }
+
+  &__accounts {
+    a {
+      text-decoration: none;
+    }
+    img {
+      height: 40px; 
+      padding: 2px;
+      margin-right: 16px;
+      border-radius: 50%;
+      background: linear-gradient(145deg, #212528, #1c2021);
+      box-shadow:  10px 10px 33px #0e1011, 
+             -10px -10px 33px #303639;
+      // transition: box-shadow 0.1s;
+    }
+    img:hover {
+    background: linear-gradient(145deg, #1c2021, #212528);
+    box-shadow:  5px 5px 10px #111314, 
+             -5px -5px 10px #2d3336;
+    }
+    .instagram {
+      border-radius: 45%;
+      padding: 4px;
+      }
+  }
+
 }
 
 .line-div {
@@ -319,20 +345,30 @@ box-shadow:  6px 6px 5px #1a1d1f,
       font-size: 20px !important;
       text-decoration: none !important;
       color: white !important;
-      border: none !important;
-      border-radius: 0 !important;
-      background-color: #1F2325;
+      outline: none !important;
+      // border-radius: 0 !important;
+      border-radius: 50px !important;
+      background: #1F2325;
+      box-shadow:  6px 6px 16px #111415, 
+             -6px -6px 16px #2d3235;
       // width: 100px;
-      margin-right: 24px;
-        &:last-child {
-        margin-right: 0px;
-        }
+      margin: 0 24px 24px 0;
+        // &:last-child {
+        // margin-right: 0px;
+        // }
+  }
+  .nav-link:hover {
+    background: #1F2325;
+    box-shadow:  4px 4px 14px #111415, 
+             -4px -4px 14px #2d3235;
   }
   .nav-item-active {
     font-weight: bolder !important;
     color: #00c6ff !important;
     border-bottom: 3px solid #00c6ff !important;
     background-color: #1F2325 !important;
+    box-shadow:  4px 4px 14px #111415, 
+             -4px -4px 14px #2d3235;
   }
 } 
 .tab-div {

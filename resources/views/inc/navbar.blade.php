@@ -1,5 +1,5 @@
 <div>
-{{-- <nav class="mainnav navbar navbar-expand-md navbar-light fixed-top">
+<nav class="mainnav navbar navbar-expand-md navbar-light fixed-top">
     <div class="container">
         <a class="navbar-brand d-flex" href="/"> 
             <div class="mainnav__title">PORTFOLIO | ALFONSO</div>
@@ -22,5 +22,5 @@
             </a>
        </div>
     </div>
-</nav> --}}
+</nav>
 </div>

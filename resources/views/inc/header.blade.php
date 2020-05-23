@@ -19,8 +19,27 @@
                 </p>
             </div>    
         </div>
+       
     </div>
-
+    <div class="justify-content-center row mt-1 mb-5">
+        <div class="profile__accounts">
+            <a href="https://www.facebook.com/marquez.josealfonso/" 
+            title="Facebook Profile of Alfonso Marquez" target="_blank">
+                <img src="/image/facebook.png">
+            </a>
+            <a href="https://www.instagram.com/fonsomarquez/"
+                title="Instagram Profile of Alfonso Marquez" target="_blank">
+                <img class="instagram" src="/image/instagram.png">
+            </a>
+            <a href="https://www.linkedin.com/in/jose-alfonso-marquez-0b3203164/"
+                title="LinkedIn Profile of Alfonso Marquez" target="_blank">
+                <img src="/image/linkedin.png">
+            </a>
+            <a href="https://github.com/alfonso-marquez" title="Github Profile of Alfonso Marquez" target="_blank">
+                <img  src="/image/GitHub-white.png">
+            </a>
+       </div>
+    </div>
     {{-- <tabs-component></tabs-component> --}}
 
     {{-- <div class="row ">
