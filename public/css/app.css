@@ -25407,6 +25407,12 @@ body {
   color: white;
 }
 
+@media (max-width: 345px) {
+  .about__contact .email {
+    font-size: 14px;
+  }
+}
+
 .projects {
   border-radius: 39px;
   background-color: #1F2325;
@@ -25433,14 +25439,21 @@ body {
 }
 
 .nav-pills .nav-link {
-  font-size: 20px !important;
+  font-size: 16px !important;
   text-decoration: none !important;
   color: white !important;
   outline: none !important;
   border-radius: 50px !important;
   background: #1F2325;
   box-shadow: 6px 6px 16px #111415, -6px -6px 16px #2d3235;
-  margin: 0 24px 24px 0;
+  margin: 0 8px 24px;
+}
+
+@media (min-width: 576px) {
+  .nav-pills .nav-link {
+    font-size: 20px !important;
+    margin: 0 24px 24px 0;
+  }
 }
 
 .nav-pills .nav-link:hover {

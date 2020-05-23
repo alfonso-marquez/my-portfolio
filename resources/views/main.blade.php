@@ -24,7 +24,7 @@
                 </template>
                 @include('inc.projects')
             </b-tab>
-            <b-tab title="Interests">
+            <b-tab class="last-tab" title="Interests">
                 <template slot="title">
                     <b-icon-lightning class=""></b-icon-lightning> Interests
                 </template>

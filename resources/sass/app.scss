@@ -302,6 +302,11 @@ box-shadow:  6px 6px 5px #1a1d1f,
         transition: box-shadow 0.2s;
         padding: 24px;
         color: white;
+    .email {
+      @media (max-width: 345px) {
+        font-size: 14px;
+      }
+    }
   }
 
 }
@@ -342,7 +347,8 @@ box-shadow:  6px 6px 5px #1a1d1f,
 .nav-pills {
 
   .nav-link {
-      font-size: 20px !important;
+      
+      font-size: 16px !important;
       text-decoration: none !important;
       color: white !important;
       outline: none !important;
@@ -352,10 +358,14 @@ box-shadow:  6px 6px 5px #1a1d1f,
       box-shadow:  6px 6px 16px #111415, 
              -6px -6px 16px #2d3235;
       // width: 100px;
-      margin: 0 24px 24px 0;
+      margin: 0 8px 24px;
         // &:last-child {
         // margin-right: 0px;
         // }
+        @media (min-width: 576px) {
+          font-size: 20px !important;
+          margin: 0 24px 24px 0;
+          }
   }
   .nav-link:hover {
     background: #1F2325;
