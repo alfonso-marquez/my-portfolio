@@ -13,7 +13,7 @@
       @sliding-end="onSlideEnd"
     >
       <!-- Text slides with image -->
-      <b-carousel-slide>
+      <!-- <b-carousel-slide>
         <template v-slot:img>
           <img
             class="d-block img-fluid w-100"
@@ -23,7 +23,7 @@
             alt="image slot"
           >
         </template>
-      </b-carousel-slide>
+      </b-carousel-slide> -->
 
       <!-- Slides with custom text -->
       <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
@@ -35,7 +35,7 @@
 
       <!-- Slides with img slot -->
       <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-      <b-carousel-slide>
+      <!-- <b-carousel-slide>
         <template v-slot:img>
           <img
             class="d-block img-fluid w-100"
@@ -45,7 +45,7 @@
             alt="image slot"
           >
         </template>
-      </b-carousel-slide>
+      </b-carousel-slide> -->
 
       <!-- Slide with blank fluid image to maintain slide aspect ratio -->
       <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
