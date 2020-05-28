@@ -4,6 +4,7 @@
       id="carousel-1"
       v-model="slide"
       :interval="4000"
+      fade
       controls
       indicators
       img-width="1024"
@@ -25,13 +26,25 @@
         </template>
       </b-carousel-slide> -->
 
-      <!-- Slides with custom text -->
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-        <h1>Hello world!</h1>
+      <b-carousel-slide caption="Volleyball" img-src="/image/volleyball.jpg">
+        <p>
+          Started playing in High School just for fun. I never thought it would be part of who I am today. <br>
+          As a Captain for some of my teams, it helped me develop my Leadership Skills.
+        </p>
       </b-carousel-slide>
 
-      <!-- Slides with image only -->
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"></b-carousel-slide>
+      <b-carousel-slide caption="Photography" img-src="/image/alfonso-2.jpg">
+        <p>
+            Discovered my interest in it just recently. Made me see things differently and open up my perspective.
+        </p>
+      </b-carousel-slide>
+
+      <b-carousel-slide caption="Music" img-src="/image/top.jpg">
+        <p>
+          Music helped me cope with my daily struggles and endeavors (esp. while coding 🤣)<br>
+          Big fan of Twenty One Pilots and also The Maine.
+        </p>
+      </b-carousel-slide>
 
       <!-- Slides with img slot -->
       <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
@@ -48,18 +61,12 @@
       </b-carousel-slide> -->
 
       <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-      <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-          a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-        </p>
-      </b-carousel-slide>
     </b-carousel>
 
-    <p class="mt-4">
+    <!-- <p class="mt-4">
       Slide #: {{ slide }}<br>
       Sliding: {{ sliding }}
-    </p>
+    </p> -->
   </div>
 </template>
 
@@ -68,6 +75,7 @@
     data() {
       return {
         slide: 0,
+        title: null,
         sliding: null
       }
     },
@@ -81,3 +89,9 @@
     }
   }
 </script>
+
+<style>
+    .carousel-item img {
+        height:100vh!important ;
+    }
+</style>
