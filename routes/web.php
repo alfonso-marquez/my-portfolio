@@ -16,12 +16,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('main');
 });
-Route::get('/about', function () {
-    return view('inc.about');
-});
-Route::get('/projects', function () {
-    return view('inc.projects');
-});
-Route::get('/interests', function () {
-    return view('inc.interests');
-});
+// Route::get('/about', function () {
+//     return view('inc.about');
+// });
+// Route::get('/projects', function () {
+//     return view('inc.projects');
+// });
+// Route::get('/interests', function () {
+//     return view('inc.interests');
+// });
+
+Route::get('sign-in/start', 'LoginController@start');   
+// Route::get('sign-in/github', 'LoginController@start');   
+
+Route::get('sign-in/github/redirect', 'LoginController@githubRedirect');
+// Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
