@@ -47673,7 +47673,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.carousel-item img {\n    height:100vh!important ;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n /* height:auto !important ; */\n.carousel-item p {\n     font-size: 16px !important;\n     line-height: 16px !important;\n}\n", ""]);
 
 // exports
 
@@ -80076,8 +80076,7 @@ var render = function() {
             fade: "",
             controls: "",
             indicators: "",
-            "img-width": "1024",
-            "img-height": "480"
+            "img-width": "1024"
           },
           on: {
             "sliding-start": _vm.onSlideStart,
@@ -80103,7 +80102,7 @@ var render = function() {
             [
               _c("p", [
                 _vm._v(
-                  "\n        Started playing in High School just for fun. I never thought it would be part of who I am today. "
+                  "\n        Started playing in High School just for fun but never thought it would be part of who I am today. "
                 ),
                 _c("br"),
                 _vm._v(
@@ -80124,7 +80123,11 @@ var render = function() {
             [
               _c("p", [
                 _vm._v(
-                  "\n          Discovered my interest in it just recently. Made me see things differently and open up my perspective.\n      "
+                  "\n          Discovered my interest in it just recently. "
+                ),
+                _c("br"),
+                _vm._v(
+                  "\n          Made me see things differently and open up my perspective.\n      "
                 )
               ])
             ]

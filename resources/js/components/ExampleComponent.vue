@@ -8,7 +8,6 @@
       controls
       indicators
       img-width="1024"
-      img-height="480"
       style="text-shadow: 1px 1px 2px #333;"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
@@ -28,14 +27,15 @@
 
       <b-carousel-slide caption="Volleyball" img-src="/image/volleyball.jpg">
         <p>
-          Started playing in High School just for fun. I never thought it would be part of who I am today. <br>
+          Started playing in High School just for fun but never thought it would be part of who I am today. <br>
           As a Captain for some of my teams, it helped me develop my Leadership Skills.
         </p>
       </b-carousel-slide>
 
       <b-carousel-slide caption="Photography" img-src="/image/alfonso-2.jpg">
         <p>
-            Discovered my interest in it just recently. Made me see things differently and open up my perspective.
+            Discovered my interest in it just recently. <br>
+            Made me see things differently and open up my perspective.
         </p>
       </b-carousel-slide>
 
@@ -91,7 +91,9 @@
 </script>
 
 <style>
-    .carousel-item img {
-        height:100vh!important ;
-    }
+        /* height:auto !important ; */
+       .carousel-item p {
+            font-size: 16px !important;
+            line-height: 16px !important;
+       }
 </style>
