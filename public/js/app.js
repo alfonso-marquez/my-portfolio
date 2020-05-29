@@ -1981,11 +1981,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       slide: 0,
-      title: null,
       sliding: null
     };
   },
@@ -47674,7 +47678,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /* height:auto !important ; */\n.carousel-item p {\n        font-size: 16px !important;\n        line-height: 24px !important;\n}\n.carousel-item img {\n    height:auto!important ;\n    width:100vw!important ;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /* height:auto !important ; */\n.carousel-item h3 {\n    font-size: 32px !important;\n}\n.carousel-item p {\n    font-size: 20px !important;\n    line-height: 20px !important;\n}\n.carousel-item img {\n    height:auto!important ;\n    width:100vw!important ;\n}\n", ""]);
 
 // exports
 
@@ -80073,7 +80077,7 @@ var render = function() {
           staticStyle: { "text-shadow": "1px 1px 2px #333" },
           attrs: {
             id: "carousel-1",
-            interval: 4000,
+            interval: 5000,
             fade: "",
             controls: "",
             indicators: "",
@@ -80097,7 +80101,7 @@ var render = function() {
             "b-carousel-slide",
             {
               attrs: {
-                "content-visible-up": "sm",
+                "content-visible-up": "md",
                 caption: "Volleyball",
                 "img-src": "/image/volleyball.jpg"
               }
@@ -80109,7 +80113,7 @@ var render = function() {
                 ),
                 _c("br"),
                 _vm._v(
-                  "\n        As a Captain for some of my teams, it helped me develop my Leadership Skills.\n      "
+                  "\n        As a Captain for some of my teams, it helped me develop my Leadership Skills.\n        "
                 )
               ])
             ]
@@ -80119,7 +80123,7 @@ var render = function() {
             "b-carousel-slide",
             {
               attrs: {
-                "content-visible-up": "sm",
+                "content-visible-up": "md",
                 caption: "Photography",
                 "img-src": "/image/alfonso-2.jpg"
               }
@@ -80127,11 +80131,11 @@ var render = function() {
             [
               _c("p", [
                 _vm._v(
-                  "\n          Discovered my interest in it just recently. "
+                  "\n          An interest I discovered lately which helped me see things differently and open up my perspective. "
                 ),
                 _c("br"),
                 _vm._v(
-                  "\n          Made me see things differently and open up my perspective.\n      "
+                  "\n          Having stills of my memories are a plus.\n        "
                 )
               ])
             ]
@@ -80141,7 +80145,7 @@ var render = function() {
             "b-carousel-slide",
             {
               attrs: {
-                "content-visible-up": "sm",
+                "content-visible-up": "md",
                 caption: "Music",
                 "img-src": "/image/top.jpg"
               }
@@ -80149,13 +80153,25 @@ var render = function() {
             [
               _c("p", [
                 _vm._v(
-                  "\n        Music helped me cope with my daily struggles and endeavors (esp. while coding 🤣)"
+                  "\n        Music helped me cope with my daily struggles and especially while I am coding."
                 ),
                 _c("br"),
                 _vm._v(
-                  "\n        Big fan of Twenty One Pilots and also The Maine.\n      "
+                  "\n        Big fan of Twenty One Pilots and The Maine 🤘\n      "
                 )
-              ])
+              ]),
+              _vm._v(" "),
+              _c("iframe", {
+                attrs: {
+                  src:
+                    "https://open.spotify.com/embed/playlist/1vME7SKuEmMUEeS2F7612E",
+                  width: "500",
+                  height: "200",
+                  frameborder: "0",
+                  allowtransparency: "true",
+                  allow: "encrypted-media"
+                }
+              })
             ]
           )
         ],

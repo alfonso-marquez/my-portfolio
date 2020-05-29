@@ -3,7 +3,7 @@
     <b-carousel
       id="carousel-1"
       v-model="slide"
-      :interval="4000"
+      :interval="5000"
       fade
       controls
       indicators
@@ -26,25 +26,30 @@
         </template>
       </b-carousel-slide> -->
 
-      <b-carousel-slide content-visible-up="sm" caption="Volleyball" img-src="/image/volleyball.jpg">
+      <b-carousel-slide content-visible-up="md" caption="Volleyball" img-src="/image/volleyball.jpg">
         <p>
           Started playing in High School just for fun but never thought it would be part of who I am today. <br>
           As a Captain for some of my teams, it helped me develop my Leadership Skills.
+          <!-- <a href="https://www.youtube.com/channel/UCI7rCtpVLhc9ZP2sKjSPlSA" target="_blank"> See Youtube</a> -->
         </p>
       </b-carousel-slide>
 
-      <b-carousel-slide content-visible-up="sm" caption="Photography" img-src="/image/alfonso-2.jpg">
+      <b-carousel-slide content-visible-up="md" caption="Photography" img-src="/image/alfonso-2.jpg">
         <p>
-            Discovered my interest in it just recently. <br>
-            Made me see things differently and open up my perspective.
+            An interest I discovered lately which helped me see things differently and open up my perspective. <br>
+            Having stills of my memories are a plus.
+          <!-- <a href="https://www.instagram.com/fonsomarquez/" target="_blank"> See Instagram</a> -->
         </p>
       </b-carousel-slide>
 
-      <b-carousel-slide content-visible-up="sm" caption="Music" img-src="/image/top.jpg">
+      <b-carousel-slide content-visible-up="md" caption="Music" img-src="/image/top.jpg">
         <p>
-          Music helped me cope with my daily struggles and endeavors (esp. while coding 🤣)<br>
-          Big fan of Twenty One Pilots and also The Maine.
+          Music helped me cope with my daily struggles and especially while I am coding.<br>
+          Big fan of Twenty One Pilots and The Maine 🤘
         </p>
+         <iframe src="https://open.spotify.com/embed/playlist/1vME7SKuEmMUEeS2F7612E" width="500" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+        <!-- <a href="https://www.youtube.com/channel/UCI7rCtpVLhc9ZP2sKjSPlSA" target="_blank"></a> -->
       </b-carousel-slide>
 
       <!-- Slides with img slot -->
@@ -76,7 +81,6 @@
     data() {
       return {
         slide: 0,
-        title: null,
         sliding: null
       }
     },
@@ -86,6 +90,7 @@
       },
       onSlideEnd(slide) {
         this.sliding = false
+
       }
     }
   }
@@ -93,11 +98,14 @@
 
 <style>
         /* height:auto !important ; */
-       .carousel-item p {
-            font-size: 16px !important;
-            line-height: 24px !important;
-       }
-       .carousel-item img {
+    .carousel-item h3 {
+        font-size: 32px !important;
+    }
+    .carousel-item p {
+        font-size: 20px !important;
+        line-height: 20px !important;
+    }
+    .carousel-item img {
         height:auto!important ;
         width:100vw!important ;
     }
