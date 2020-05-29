@@ -48,7 +48,6 @@
           Big fan of Twenty One Pilots and The Maine 🤘
         </p>
          <iframe src="https://open.spotify.com/embed/playlist/1vME7SKuEmMUEeS2F7612E" width="500" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
         <!-- <a href="https://www.youtube.com/channel/UCI7rCtpVLhc9ZP2sKjSPlSA" target="_blank"></a> -->
       </b-carousel-slide>
 
