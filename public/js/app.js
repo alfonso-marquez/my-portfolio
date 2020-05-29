@@ -80103,7 +80103,7 @@ var render = function() {
               attrs: {
                 "content-visible-up": "md",
                 caption: "Volleyball",
-                "img-src": "/image/volleyball.jpg"
+                "img-src": "/image/volleyball-1.jpg"
               }
             },
             [
@@ -80113,7 +80113,20 @@ var render = function() {
                 ),
                 _c("br"),
                 _vm._v(
-                  "\n        As a Captain for some of my teams, it helped me develop my Leadership Skills.\n        "
+                  "\n        As a Captain for some of my teams, it helped me develop my Leadership Skills. "
+                ),
+                _c("br"),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href:
+                        "https://www.youtube.com/channel/UCI7rCtpVLhc9ZP2sKjSPlSA",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v(" See my Videos")]
                 )
               ])
             ]
@@ -80134,8 +80147,18 @@ var render = function() {
                   "\n          An interest I discovered lately which helped me see things differently and open up my perspective. "
                 ),
                 _c("br"),
-                _vm._v(
-                  "\n          Having stills of my memories are a plus.\n        "
+                _vm._v("\n          Having stills of my memories are a plus. "),
+                _c("br"),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "https://www.instagram.com/fonsomarquez/",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v(" See my Instagram")]
                 )
               ])
             ]

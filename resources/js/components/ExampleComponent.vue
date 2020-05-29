@@ -26,19 +26,19 @@
         </template>
       </b-carousel-slide> -->
 
-      <b-carousel-slide content-visible-up="md" caption="Volleyball" img-src="/image/volleyball.jpg">
+      <b-carousel-slide content-visible-up="md" caption="Volleyball" img-src="/image/volleyball-1.jpg">
         <p>
           Started playing in High School just for fun but never thought it would be part of who I am today. <br>
-          As a Captain for some of my teams, it helped me develop my Leadership Skills.
-          <!-- <a href="https://www.youtube.com/channel/UCI7rCtpVLhc9ZP2sKjSPlSA" target="_blank"> See Youtube</a> -->
+          As a Captain for some of my teams, it helped me develop my Leadership Skills. <br>
+          <a href="https://www.youtube.com/channel/UCI7rCtpVLhc9ZP2sKjSPlSA" target="_blank"> See my Videos</a>
         </p>
       </b-carousel-slide>
 
       <b-carousel-slide content-visible-up="md" caption="Photography" img-src="/image/alfonso-2.jpg">
         <p>
             An interest I discovered lately which helped me see things differently and open up my perspective. <br>
-            Having stills of my memories are a plus.
-          <!-- <a href="https://www.instagram.com/fonsomarquez/" target="_blank"> See Instagram</a> -->
+            Having stills of my memories are a plus. <br>
+          <a href="https://www.instagram.com/fonsomarquez/" target="_blank"> See my Instagram</a>
         </p>
       </b-carousel-slide>
 
