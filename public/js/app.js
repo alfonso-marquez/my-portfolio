@@ -1980,6 +1980,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -47673,7 +47674,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n /* height:auto !important ; */\n.carousel-item p {\n     font-size: 16px !important;\n     line-height: 16px !important;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /* height:auto !important ; */\n.carousel-item p {\n        font-size: 16px !important;\n        line-height: 24px !important;\n}\n.carousel-item img {\n    height:auto!important ;\n    width:100vw!important ;\n}\n", ""]);
 
 // exports
 
@@ -80076,7 +80077,8 @@ var render = function() {
             fade: "",
             controls: "",
             indicators: "",
-            "img-width": "1024"
+            "img-width": "1024",
+            "img-height": "800"
           },
           on: {
             "sliding-start": _vm.onSlideStart,
@@ -80095,6 +80097,7 @@ var render = function() {
             "b-carousel-slide",
             {
               attrs: {
+                "content-visible-up": "sm",
                 caption: "Volleyball",
                 "img-src": "/image/volleyball.jpg"
               }
@@ -80116,6 +80119,7 @@ var render = function() {
             "b-carousel-slide",
             {
               attrs: {
+                "content-visible-up": "sm",
                 caption: "Photography",
                 "img-src": "/image/alfonso-2.jpg"
               }
@@ -80135,7 +80139,13 @@ var render = function() {
           _vm._v(" "),
           _c(
             "b-carousel-slide",
-            { attrs: { caption: "Music", "img-src": "/image/top.jpg" } },
+            {
+              attrs: {
+                "content-visible-up": "sm",
+                caption: "Music",
+                "img-src": "/image/top.jpg"
+              }
+            },
             [
               _c("p", [
                 _vm._v(

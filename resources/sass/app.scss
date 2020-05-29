@@ -323,6 +323,7 @@ box-shadow:  6px 6px 5px #1a1d1f,
 
       h4 {
         text-align: center;
+        font-size: 1rem;
       }
 }
 
@@ -332,7 +333,7 @@ box-shadow:  6px 6px 5px #1a1d1f,
     box-shadow:  6px 6px 5px #1a1d1f, 
     -6px -6px 5px #24292b;
         transition: box-shadow 0.2s;
-    padding: 16px;
+    padding: 32px 0px 32px !important;
     color: white;
 }
 
