@@ -126,7 +126,7 @@
                     <h5><strong>Others</strong></h5>
                 </div>
                 <div class="row">
-                    <div class="skills-content col-10 col-sm-10 col-md-8 col-lg-8">
+                    <div class="skills-content col-12 col-sm-10 col-md-8 col-lg-8">
                         <div>
                             <div class="img-container">
                                 <img src="/image/others/git.png" alt="git logo">
