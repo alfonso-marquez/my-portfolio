@@ -1985,7 +1985,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -47678,7 +47677,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /* height:auto !important ; */\n.carousel-item h3 {\n    font-size: 32px !important;\n}\n.carousel-item p {\n    font-size: 20px !important;\n    line-height: 20px !important;\n}\n.carousel-item img {\n    height:auto!important ;\n    width:100vw!important ;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /* height:auto !important ; */\n.carousel-item h3 {\n    font-size: 32px !important;\n}\n.carousel-item p {\n    font-size: 20px !important;\n    line-height: 20px !important;\n}\n.carousel-item img {\n    height:auto!important ;\n    width:100vw!important ;\n}\n", ""]);
 
 // exports
 
@@ -92417,70 +92416,8 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 
 var app = new Vue({
   el: '#app',
-  data: {
-    links: [{
-      text: 'Overview',
-      isActive: true
-    }, {
-      text: 'Skills',
-      isActive: false
-    }, {
-      text: 'Contact',
-      isActive: false
-    }]
-  }
-}); // const about = document.querySelector(".about-icon");
-// about.setAttribute('src', '/image/about-active.png');
-// $(document).ready(function(){
-//     $('.nav-tabs li:first-child').addClass('active');
-//     $(".nav-tabs a").click(function(){
-//         $(this).tab('show');
-//     });
-// });
-
-var tabs = document.querySelectorAll('.nav-item'); // const handleImage = () => {
-//   tabs.forEach(tab => {
-//     const image = tab.querySelector('img');
-//     if (tab.classList.contains('active')) {
-//       if (image.classList.contains('projects')) {
-//         image.setAttribute('src', '/image/projects-active.png')
-//       } else if (image.classList.contains('about')) {
-//         image.setAttribute('src', '/image/about-active.png')
-//       } else if (image.classList.contains('interests')) {
-//         image.setAttribute('src', '/image/interests-active.png')
-//       }
-//     } else {
-//       if (image.classList.contains('projects')) {
-//         image.setAttribute('src', '/image/projects.png')
-//       } else if (image.classList.contains('about')) {
-//         image.setAttribute('src', '/image/about.png')
-//       } else if (image.classList.contains('interests')) {
-//         image.setAttribute('src', '/image/interests.png')
-//       }
-//     }
-//   });
-// }
-// const closeOtherTabs = () => {
-//   tabs.forEach(tab => {
-//     const target = tab.getAttribute('data-target');
-//     const content = document.getElementById(target);
-//     tab.classList.remove('active');
-//     content.classList.remove('active');
-//   });
-// };
-// handleImage();
-// tabs.forEach(tab => {
-//   tab.addEventListener('click', () => {
-//     // const image = tab.querySelector('img');
-//     const target = tab.getAttribute('data-target');
-//     const content = document.getElementById(target);
-//     closeOtherTabs();
-//     tab.classList.add('active');
-//     content.classList.add('active');
-//     handleImage();
-//   });
-// });
-
+  data: {}
+});
 Chart.defaults.global.defaultFontColor = 'white';
 Chart.defaults.global.defaultFontFamily = 'Open Sans';
 new Chart(document.getElementById("bar-chart"), {

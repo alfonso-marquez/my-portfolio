@@ -26,10 +26,6 @@ Route::get('/', function () {
 //     return view('inc.interests');
 // });
 
-Route::get('sign-in/start', 'LoginController@start');   
-// Route::get('sign-in/github', 'LoginController@start');   
-
-Route::get('sign-in/github/redirect', 'LoginController@githubRedirect');
 // Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');

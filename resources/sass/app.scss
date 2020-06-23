@@ -285,11 +285,39 @@ box-shadow:  6px 6px 5px #1a1d1f,
     box-shadow:  6px 6px 5px #1a1d1f, 
                  -6px -6px 5px #24292b;
         transition: box-shadow 0.2s;
-        padding: 24px;
         color: white;
 
-    .skills-bar {
+    .skills-category {
+      padding: 16px;
     }
+    .skills-content {
+      padding-bottom: 16px;
+      display: flex;
+      justify-content:space-around;
+      flex-wrap: wrap;
+    }
+    
+    h5 {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    p {
+      font-size: 0.67rem;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      margin-top: 8px;
+    }
+    .img-container {
+      height: 60px;
+      width: 60px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+
   }
   &__contact {
     border-radius: 16px;

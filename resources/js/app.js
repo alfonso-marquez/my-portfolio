@@ -39,75 +39,9 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
-
     data: {
-        links : [
-            {text: 'Overview', isActive: true},
-            {text: 'Skills', isActive: false},
-            {text: 'Contact', isActive: false},
-
-        ],
     }
 });
-
-// const about = document.querySelector(".about-icon");
-// about.setAttribute('src', '/image/about-active.png');
-
-// $(document).ready(function(){
-//     $('.nav-tabs li:first-child').addClass('active');
-//     $(".nav-tabs a").click(function(){
-//         $(this).tab('show');
-//     });
-// });
-
-const tabs = document.querySelectorAll('.nav-item');
-
-// const handleImage = () => {
-//   tabs.forEach(tab => {
-//     const image = tab.querySelector('img');
-    
-//     if (tab.classList.contains('active')) {
-//       if (image.classList.contains('projects')) {
-//         image.setAttribute('src', '/image/projects-active.png')
-//       } else if (image.classList.contains('about')) {
-//         image.setAttribute('src', '/image/about-active.png')
-//       } else if (image.classList.contains('interests')) {
-//         image.setAttribute('src', '/image/interests-active.png')
-//       }
-//     } else {
-//       if (image.classList.contains('projects')) {
-//         image.setAttribute('src', '/image/projects.png')
-//       } else if (image.classList.contains('about')) {
-//         image.setAttribute('src', '/image/about.png')
-//       } else if (image.classList.contains('interests')) {
-//         image.setAttribute('src', '/image/interests.png')
-//       }
-//     }
-//   });
-// }
-
-// const closeOtherTabs = () => {
-//   tabs.forEach(tab => {
-//     const target = tab.getAttribute('data-target');
-//     const content = document.getElementById(target);
-//     tab.classList.remove('active');
-//     content.classList.remove('active');
-//   });
-// };
-
-// handleImage();
-
-// tabs.forEach(tab => {
-//   tab.addEventListener('click', () => {
-//     // const image = tab.querySelector('img');
-//     const target = tab.getAttribute('data-target');
-//     const content = document.getElementById(target);
-//     closeOtherTabs();
-//     tab.classList.add('active');
-//     content.classList.add('active');
-//     handleImage();
-//   });
-// });
 
 Chart.defaults.global.defaultFontColor = 'white';
 Chart.defaults.global.defaultFontFamily = 'Open Sans';
