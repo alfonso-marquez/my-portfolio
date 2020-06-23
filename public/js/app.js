@@ -92418,62 +92418,6 @@ var app = new Vue({
   el: '#app',
   data: {}
 });
-Chart.defaults.global.defaultFontColor = 'white';
-Chart.defaults.global.defaultFontFamily = 'Open Sans';
-new Chart(document.getElementById("bar-chart"), {
-  type: 'horizontalBar',
-  data: {
-    labels: ["HTML5/CSS3", "SASS", "JAVASCRIPT", "ANGULAR/REACT", "NODE", "VUE", "PHP", "LARAVEL", "OCTOBERCMS", "POSTGRESQL/MYSQL", "GIT", "C/C++/JAVA"],
-    fontSize: 14,
-    datasets: [{
-      label: "Skill",
-      backgroundColor: ["rgba(34, 167, 240, 1)", "rgba(107, 185, 240, 1)", "#3282b8", "#0f4c75", "rgba(34, 167, 240, 1)", "rgba(107, 185, 240, 1)", "#3282b8", "#0f4c75", "rgba(34, 167, 240, 1)", "rgba(107, 185, 240, 1)", "#3282b8", "#0f4c75"],
-      data: [90, 70, 65, 60, 70, 50, 70, 80, 70, 75, 85, 75],
-      barPercentage: 0.7,
-      categoryPercentage: 0.7 //   barThickness: 15,
-      //   maxBarThickness: 30,
-      //   minBarThickness: 10,
-      //   minBarLength: 50,
-
-    }]
-  },
-  options: {
-    responsive: true,
-    legend: {
-      display: false
-    },
-    title: {
-      display: false,
-      text: 'Skill',
-      showLines: false
-    },
-    scales: {
-      xAxes: [{
-        gridLines: {
-          display: false
-        },
-        ticks: {
-          max: 100,
-          min: 0,
-          display: false
-        }
-      }],
-      yAxes: [{
-        gridLines: {
-          display: false
-        }
-      }]
-    },
-    layout: {
-      padding: {
-        left: 0,
-        right: 0,
-        top: 16,
-        bottom: 0
-      }
-    }
-  }
-});
 
 /***/ }),
 
