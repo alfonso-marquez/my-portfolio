@@ -8,7 +8,7 @@
             </div>
             <div class="about__experiences col-12 mb-5">
                 <h4>Experience</h4>
-                <p>Software Engineer at <strong>Blotocol Philippines, Inc.</strong></p>
+                <p>Laravel Developer at <strong>Red Core Solutions</strong></p>
                 <p>Self-employed as <strong>Freelance Programmer</strong></p>
                 <p>Software Associate at <strong>AOMOS</strong></p>
                 <p>Hardware Intern at <strong>RJPB Computer Trading</strong></p>
@@ -16,7 +16,6 @@
             <div class="about__contact col-12 mb-4">
                 <h4>Contact</h4>
                 <p class="email">Email: <strong>marquez.josealfonso@gmail.com</strong></p>
-                <p>Mobile Number: <strong>09052205985</strong></p>
             </div>
         </div>
         <div class="col-12 col-sm-10 offset-sm-1 col-lg-6 offset-lg-0 mt-4">
